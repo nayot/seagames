@@ -1,0 +1,1372 @@
+<?xml version="1.0" encoding="ISO8859-1"?>
+<!DOCTYPE DatumFile SYSTEM "Datum.dtd">
+<DatumFile>
+	<Datums>
+		<!-- Datum: Name, Ellipsoid (one from above), Delta with respect to WGS84 (x, y, z), Cartographic Error (x, y, z), Region of Use -->
+		<Datum Name="Adindan">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-118 -14 218</Delta>
+			<Error>25 25 25</Error>
+			<Region>Burkina Faso</Region>
+		</Datum>
+		<Datum Name="Adindan">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-134 -2 210</Delta>
+			<Error>25 25 25</Error>
+			<Region>Cameroon</Region>
+		</Datum>
+		<Datum Name="Adindan">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-165 -11 206</Delta>
+			<Error>3 3 3</Error>
+			<Region>Ethiopia</Region>
+		</Datum>
+		<Datum Name="Adindan">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-123 -20 220</Delta>
+			<Error>25 25 25</Error>
+			<Region>Mali</Region>
+		</Datum>
+		<Datum Name="Adindan">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-166 -15 204</Delta>
+			<Error>5 5 3</Error>
+			<Region>MEAN FOR Ethiopia; Sudan</Region>
+		</Datum>
+		<Datum Name="Adindan">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-128 -18 224</Delta>
+			<Error>25 25 25</Error>
+			<Region>Senegal</Region>
+		</Datum>
+		<Datum Name="Adindan">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-161 -14 205</Delta>
+			<Error>3 5 3</Error>
+			<Region>Sudan</Region>
+		</Datum>
+		<Datum Name="Afgooye">
+			<Ellipsoid>Krassovsky 1940</Ellipsoid>
+			<Delta>-43 -163 45</Delta>
+			<Error>25 25 25</Error>
+			<Region>Somalia</Region>
+		</Datum>
+		<Datum Name="Ain el Abd 1970">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-150 -250 -1</Delta>
+			<Error>25 25 25</Error>
+			<Region>Bahrain</Region>
+		</Datum>
+		<Datum Name="Ain el Abd 1970">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-143 -236 7</Delta>
+			<Error>10 10 10</Error>
+			<Region>Saudi Arabia</Region>
+		</Datum>
+		<Datum Name="American Samoa 1962">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>-115 118 426</Delta>
+			<Error>25 25 25</Error>
+			<Region>American Samoa Islands</Region>
+		</Datum>
+		<Datum Name="Anna 1 Astro 1965">
+			<Ellipsoid>Australian National</Ellipsoid>
+			<Delta>-491 -22 435</Delta>
+			<Error>25 25 25</Error>
+			<Region>Cocos Islands</Region>
+		</Datum>
+		<Datum Name="Antigua Island Astro 1943">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-270 13 62</Delta>
+			<Error>25 25 25</Error>
+			<Region>Antigua (Leeward Islands)</Region>
+		</Datum>
+		<Datum Name="Arc 1950">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-138 -105 -289</Delta>
+			<Error>3 5 3</Error>
+			<Region>Botswana</Region>
+		</Datum>
+		<Datum Name="Arc 1950">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-153 -5 -292</Delta>
+			<Error>20 20 20</Error>
+			<Region>Burundi</Region>
+		</Datum>
+		<Datum Name="Arc 1950">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-125 -108 -295</Delta>
+			<Error>3 3 8</Error>
+			<Region>Lesotho</Region>
+		</Datum>
+		<Datum Name="Arc 1950">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-161 -73 -317</Delta>
+			<Error>9 24 8</Error>
+			<Region>Malawi</Region>
+		</Datum>
+		<Datum Name="Arc 1950">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-143 -90 -294</Delta>
+			<Error>20 33 20</Error>
+			<Region>MEAN FOR Botswana; Lesotho; Malawi; Swaziland; Zaire; Zambia; Zimbabwe</Region>
+		</Datum>
+		<Datum Name="Arc 1950">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-134 -105 -295</Delta>
+			<Error>15 15 15</Error>
+			<Region>Swaziland</Region>
+		</Datum>
+		<Datum Name="Arc 1950">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-169 -19 -278</Delta>
+			<Error>25 25 25</Error>
+			<Region>Zaire</Region>
+		</Datum>
+		<Datum Name="Arc 1950">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-147 -74 -283</Delta>
+			<Error>21 21 27</Error>
+			<Region>Zambia</Region>
+		</Datum>
+		<Datum Name="Arc 1950">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-142 -96 -293</Delta>
+			<Error>5 8 11</Error>
+			<Region>Zimbabwe</Region>
+		</Datum>
+		<Datum Name="Arc 1960">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-160 -6 -302</Delta>
+			<Error>20 20 20</Error>
+			<Region>MEAN FOR Kenya; Tanzania</Region>
+		</Datum>
+		<Datum Name="Arc 1960">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-157 -2 -299</Delta>
+			<Error>4 3 3</Error>
+			<Region>Kenya</Region>
+		</Datum>
+		<Datum Name="Arc 1960">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-175 -23 -303</Delta>
+			<Error>6 9 10</Error>
+			<Region>Taanzania</Region>
+		</Datum>
+		<Datum Name="Ascension Island 1958">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-205 107 53</Delta>
+			<Error>25 25 25</Error>
+			<Region>Ascension Island</Region>
+		</Datum>
+		<Datum Name="Astro Beacon E 1945">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>145 75 -272</Delta>
+			<Error>25 25 25</Error>
+			<Region>Iwo Jima</Region>
+		</Datum>
+		<Datum Name="Astro DOS 71/4">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-320 550 -494</Delta>
+			<Error>25 25 25</Error>
+			<Region>St Helena Island</Region>
+		</Datum>
+		<Datum Name="Astro Tern Island (FRIG) 1961">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>114 -116 -333</Delta>
+			<Error>25 25 25</Error>
+			<Region>Tern Island</Region>
+		</Datum>
+		<Datum Name="Astronomical Station 1952">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>124 -234 -25</Delta>
+			<Error>25 25 25</Error>
+			<Region>Marcus Island</Region>
+		</Datum>
+		<Datum Name="Australian Geodetic 1966">
+			<Ellipsoid>Australian National</Ellipsoid>
+			<Delta>-133 -48 148</Delta>
+			<Error>3 3 3</Error>
+			<Region>Australia; Tasmania</Region>
+		</Datum>
+		<Datum Name="Australian Geodetic 1984">
+			<Ellipsoid>Australian National</Ellipsoid>
+			<Delta>-134 -48 149</Delta>
+			<Error>2 2 2</Error>
+			<Region>Australia; Tasmania</Region>
+		</Datum>
+		<Datum Name="Ayabelle Lighthouse">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-79 -129 145</Delta>
+			<Error>25 25 25</Error>
+			<Region>Djibouti</Region>
+		</Datum>
+		<Datum Name="Bellevue (IGN)">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-127 -769 472</Delta>
+			<Error>20 20 20</Error>
+			<Region>Efate and Erromango Islands</Region>
+		</Datum>
+		<Datum Name="Bermuda 1957">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>-73 213 296</Delta>
+			<Error>20 20 20</Error>
+			<Region>Bermuda</Region>
+		</Datum>
+		<Datum Name="Bissau">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-173 253 27</Delta>
+			<Error>25 25 25</Error>
+			<Region>Guinea-Bissau</Region>
+		</Datum>
+		<Datum Name="Bogota Observatory">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>307 304 -318</Delta>
+			<Error>6 5 6</Error>
+			<Region>Colombia</Region>
+		</Datum>
+		<Datum Name="Bukit Rimpah">
+			<Ellipsoid>Bessel 1841</Ellipsoid>
+			<Delta>-384 664 -48</Delta>
+			<Error>-1 -1 -1</Error>
+			<Region>Indonesia (Bangka and Belitung Ids)</Region>
+		</Datum>
+		<Datum Name="Camp Area Astro">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-104 -129 239</Delta>
+			<Error>-1 -1 -1</Error>
+			<Region>Antarctica (McMurdo Camp Area)</Region>
+		</Datum>
+		<Datum Name="Campo Inchauspe">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-148 136 90</Delta>
+			<Error>5 5 5</Error>
+			<Region>Argentina</Region>
+		</Datum>
+		<Datum Name="Canton Astro 1966">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>298 -304 -375</Delta>
+			<Error>15 15 15</Error>
+			<Region>Phoenix Islands</Region>
+		</Datum>
+		<Datum Name="Cape">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-136 -108 -292</Delta>
+			<Error>3 6 6</Error>
+			<Region>South Africa</Region>
+		</Datum>
+		<Datum Name="Cape Canaveral">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>-2 151 181</Delta>
+			<Error>3 3 3</Error>
+			<Region>Bahamas; Florida</Region>
+		</Datum>
+		<Datum Name="Carthage">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-263 6 431</Delta>
+			<Error>6 9 8</Error>
+			<Region>Tunisia</Region>
+		</Datum>
+		<Datum Name="Chatham Island Astro 1971">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>175 -38 113</Delta>
+			<Error>15 15 15</Error>
+			<Region>New Zealand (Chatham Island)</Region>
+		</Datum>
+		<Datum Name="Chua Astro">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-134 229 -29</Delta>
+			<Error>6 9 5</Error>
+			<Region>Paraguay</Region>
+		</Datum>
+		<Datum Name="Corrego Alegre">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-206 172 -6</Delta>
+			<Error>5 3 5</Error>
+			<Region>Brazil</Region>
+		</Datum>
+		<Datum Name="Dabola">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-83 37 124</Delta>
+			<Error>15 15 15</Error>
+			<Region>Guinea</Region>
+		</Datum>
+		<Datum Name="Deception Island">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>260 12 -147</Delta>
+			<Error>20 20 20</Error>
+			<Region>Deception Island; Antarctia</Region>
+		</Datum>
+		<Datum Name="Djakarta (Batavia)">
+			<Ellipsoid>Bessel 1841</Ellipsoid>
+			<Delta>-377 681 -50</Delta>
+			<Error>3 3 3</Error>
+			<Region>Indonesia (Sumatra)</Region>
+		</Datum>
+		<Datum Name="DOS 1968">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>230 -199 -752</Delta>
+			<Error>25 25 25</Error>
+			<Region>New Georgia Islands (Gizo Island)</Region>
+		</Datum>
+		<Datum Name="Easter Island 1967">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>211 147 111</Delta>
+			<Error>25 25 25</Error>
+			<Region>Easter Island</Region>
+		</Datum>
+		<Datum Name="Estonia; Coordinate System 1937">
+			<Ellipsoid>Bessel 1841</Ellipsoid>
+			<Delta>374 150 588</Delta>
+			<Error>2 3 3</Error>
+			<Region>Estonia</Region>
+		</Datum>
+		<Datum Name="European 1950">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-104 -101 -140</Delta>
+			<Error>15 15 15</Error>
+			<Region>Cyprus</Region>
+		</Datum>
+		<Datum Name="European 1950">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-130 -117 -151</Delta>
+			<Error>6 8 8</Error>
+			<Region>Egypt</Region>
+		</Datum>
+		<Datum Name="European 1950">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-86 -96 -120</Delta>
+			<Error>3 3 3</Error>
+			<Region>England; Channel Islands; Scotland; Shetland Islands</Region>
+		</Datum>
+		<Datum Name="European 1950">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-86 -96 -120</Delta>
+			<Error>3 3 3</Error>
+			<Region>England; Ireland; Scotland; Shetland Islands</Region>
+		</Datum>
+		<Datum Name="European 1950">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-87 -95 -120</Delta>
+			<Error>3 5 3</Error>
+			<Region>Finland; Norway</Region>
+		</Datum>
+		<Datum Name="European 1950">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-84 -95 -130</Delta>
+			<Error>25 25 25</Error>
+			<Region>Greece</Region>
+		</Datum>
+		<Datum Name="European 1950">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-117 -132 -164</Delta>
+			<Error>9 12 11</Error>
+			<Region>Iran</Region>
+		</Datum>
+		<Datum Name="European 1950">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-97 -103 -120</Delta>
+			<Error>25 25 25</Error>
+			<Region>Italy (Sardinia)</Region>
+		</Datum>
+		<Datum Name="European 1950">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-97 -88 -135</Delta>
+			<Error>20 20 20</Error>
+			<Region>Italy (Sicily)</Region>
+		</Datum>
+		<Datum Name="European 1950">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-107 -88 -149</Delta>
+			<Error>25 25 25</Error>
+			<Region>Malta</Region>
+		</Datum>
+		<Datum Name="European 1950">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-87 -98 -121</Delta>
+			<Error>3 8 5</Error>
+			<Region>MEAN FOR Austria; Belgium; Denmark; Finland; France; W Germany; Gibraltar; Greece; Italy; Luxembourg; Netherlands; Norway; Portugal; Spain; Sweden; Switzerland</Region>
+		</Datum>
+		<Datum Name="European 1950">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-87 -96 -120</Delta>
+			<Error>3 3 3</Error>
+			<Region>MEAN FOR Austria; Denmark; France; W Germany; Netherlands; Switzerland</Region>
+		</Datum>
+		<Datum Name="European 1950">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-103 -106 -141</Delta>
+			<Error>-1 -1 -1</Error>
+			<Region>MEAN FOR Iraq; Israel; Jordan; Lebanon; Kuwait; Saudi Arabia; Syria</Region>
+		</Datum>
+		<Datum Name="European 1950">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-84 -107 -120</Delta>
+			<Error>5 6 3</Error>
+			<Region>Portugal; Spain</Region>
+		</Datum>
+		<Datum Name="European 1950">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-112 -77 -145</Delta>
+			<Error>25 25 25</Error>
+			<Region>Tunisia</Region>
+		</Datum>
+		<Datum Name="European 1979">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-86 -98 -119</Delta>
+			<Error>3 3 3</Error>
+			<Region>MEAN FOR Austria; Finland; Netherlands; Norway; Spain; Sweden; Switzerland</Region>
+		</Datum>
+		<Datum Name="Fort Thomas 1955">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-7 215 225</Delta>
+			<Error>25 25 25</Error>
+			<Region>Nevis; St. Kitts (Leeward Islands)</Region>
+		</Datum>
+		<Datum Name="Gan 1970">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-133 -321 50</Delta>
+			<Error>25 25 25</Error>
+			<Region>Republic of Maldives</Region>
+		</Datum>
+		<Datum Name="Geodetic Datum 1949">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>84 -22 209</Delta>
+			<Error>5 3 5</Error>
+			<Region>New Zealand</Region>
+		</Datum>
+		<Datum Name="Graciosa Base SW 1948">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-104 167 -38</Delta>
+			<Error>3 3 3</Error>
+			<Region>Azores (Faial; Graciosa; Pico; Sao Jorge; Terceira)</Region>
+		</Datum>
+		<Datum Name="Guam 1963">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>-100 -248 259</Delta>
+			<Error>3 3 3</Error>
+			<Region>Guam</Region>
+		</Datum>
+		<Datum Name="Gunung Segara">
+			<Ellipsoid>Bessel 1841</Ellipsoid>
+			<Delta>-403 684 41</Delta>
+			<Error>-1 -1 -1</Error>
+			<Region>Indonesia (Kalimantan)</Region>
+		</Datum>
+		<Datum Name="GUX 1 Astro">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>252 -209 -751</Delta>
+			<Error>25 25 25</Error>
+			<Region>Guadalcanal Island</Region>
+		</Datum>
+		<Datum Name="Herat North">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-333 -222 114</Delta>
+			<Error>-1 -1 -1</Error>
+			<Region>Afghanistan</Region>
+		</Datum>
+		<Datum Name="Hermannskogel Datum">
+			<Ellipsoid>Bessel 1841 (Namibia)</Ellipsoid>
+			<Delta>653 -212 449</Delta>
+			<Error>-1 -1 -1</Error>
+			<Region>Croatia -Serbia. Bosnia-Herzegovina </Region>
+		</Datum>
+		<Datum Name="Hjorsey 1955">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-73 46 -86</Delta>
+			<Error>3 3 6</Error>
+			<Region>Iceland</Region>
+		</Datum>
+		<Datum Name="Hong Kong 1963">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-156 -271 -189</Delta>
+			<Error>25 25 25</Error>
+			<Region>Hong Kong</Region>
+		</Datum>
+		<Datum Name="Hu-Tzu-Shan">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-637 -549 -203</Delta>
+			<Error>15 15 15</Error>
+			<Region>Taiwan</Region>
+		</Datum>
+		<Datum Name="Indian">
+			<Ellipsoid>Everest (India 1830)</Ellipsoid>
+			<Delta>282 726 254</Delta>
+			<Error>10 8 12</Error>
+			<Region>Bangladesh</Region>
+		</Datum>
+		<Datum Name="Indian">
+			<Ellipsoid>Everest (India 1956)</Ellipsoid>
+			<Delta>295 736 257</Delta>
+			<Error>12 10 15</Error>
+			<Region>India; Nepal</Region>
+		</Datum>
+		<Datum Name="Indian">
+			<Ellipsoid>Everest (Pakistan)</Ellipsoid>
+			<Delta>283 682 231</Delta>
+			<Error>-1 -1 -1</Error>
+			<Region>Pakistan</Region>
+		</Datum>
+		<Datum Name="Indian 1954">
+			<Ellipsoid>Everest (India 1830)</Ellipsoid>
+			<Delta>217 823 299</Delta>
+			<Error>15 6 12</Error>
+			<Region>Thailand</Region>
+		</Datum>
+		<Datum Name="Indian 1960">
+			<Ellipsoid>Everest (India 1830)</Ellipsoid>
+			<Delta>182 915 344</Delta>
+			<Error>25 25 25</Error>
+			<Region>Vietnam (Con Son Island)</Region>
+		</Datum>
+		<Datum Name="Indian 1960">
+			<Ellipsoid>Everest (India 1830)</Ellipsoid>
+			<Delta>198 881 317</Delta>
+			<Error>25 25 25</Error>
+			<Region>Vietnam (Near 16ºN)</Region>
+		</Datum>
+		<Datum Name="Indian 1975">
+			<Ellipsoid>Everest (India 1830)</Ellipsoid>
+			<Delta>210 814 289</Delta>
+			<Error>3 2 3</Error>
+			<Region>Thailand</Region>
+		</Datum>
+		<Datum Name="Indonesian 1974">
+			<Ellipsoid>Indonesian 1974</Ellipsoid>
+			<Delta>-24 -15 5</Delta>
+			<Error>25 25 25</Error>
+			<Region>Indonesia</Region>
+		</Datum>
+		<Datum Name="Ireland 1965">
+			<Ellipsoid>Modified Airy</Ellipsoid>
+			<Delta>506 -122 611</Delta>
+			<Error>3 3 3</Error>
+			<Region>Ireland</Region>
+		</Datum>
+		<Datum Name="ISTS 061 Astro 1968">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-794 119 -298</Delta>
+			<Error>25 25 25</Error>
+			<Region>South Georgia Islands</Region>
+		</Datum>
+		<Datum Name="ISTS 073 Astro 1969">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>208 -435 -229</Delta>
+			<Error>25 25 25</Error>
+			<Region>Diego Garcia</Region>
+		</Datum>
+		<Datum Name="Johnston Island 1961">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>189 -79 -202</Delta>
+			<Error>25 25 25</Error>
+			<Region>Johnston Island</Region>
+		</Datum>
+		<Datum Name="Kandawala">
+			<Ellipsoid>Everest (India 1830)</Ellipsoid>
+			<Delta>-97 787 86</Delta>
+			<Error>20 20 20</Error>
+			<Region>Sri Lanka</Region>
+		</Datum>
+		<Datum Name="Kerguelen Island 1949">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>145 -187 103</Delta>
+			<Error>25 25 25</Error>
+			<Region>Kerguelen Island</Region>
+		</Datum>
+		<Datum Name="Kertau 1948">
+			<Ellipsoid>Everest (Malaysia-Singapur)</Ellipsoid>
+			<Delta>-11 851 5</Delta>
+			<Error>10 8 6</Error>
+			<Region>West Malaysia and Singapore</Region>
+		</Datum>
+		<Datum Name="Kusaie Astro 1951">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>647 1777 -1124</Delta>
+			<Error>25 25 25</Error>
+			<Region>Caroline Islands</Region>
+		</Datum>
+		<Datum Name="Korean Geodetic System">
+			<Ellipsoid>GRS 1980</Ellipsoid>
+			<Delta>0 0 0</Delta>
+			<Error>2 2 2</Error>
+			<Region>South Korea</Region>
+		</Datum>
+		<Datum Name="L. C. 5 Astro 1961">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>42 124 147</Delta>
+			<Error>25 25 25</Error>
+			<Region>Cayman Brac Island</Region>
+		</Datum>
+		<Datum Name="Leigon">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-130 29 364</Delta>
+			<Error>2 3 2</Error>
+			<Region>Ghana</Region>
+		</Datum>
+		<Datum Name="Liberia 1964">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-90 40 88</Delta>
+			<Error>15 15 15</Error>
+			<Region>Liberia</Region>
+		</Datum>
+		<Datum Name="Luzon">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>-133 -77 -51</Delta>
+			<Error>8 11 9</Error>
+			<Region>Philippines (Excluding Mindanao)</Region>
+		</Datum>
+		<Datum Name="Luzon">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>-133 -79 -72</Delta>
+			<Error>25 25 25</Error>
+			<Region>Philippines (Mindanao)</Region>
+		</Datum>
+		<Datum Name="M'Poraloko">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-74 -130 42</Delta>
+			<Error>25 25 25</Error>
+			<Region>Gabon</Region>
+		</Datum>
+		<Datum Name="Mahe 1971">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>41 -220 -134</Delta>
+			<Error>25 25 25</Error>
+			<Region>Mahe Island</Region>
+		</Datum>
+		<Datum Name="Massawa">
+			<Ellipsoid>Bessel 1841</Ellipsoid>
+			<Delta>639 405 60</Delta>
+			<Error>25 25 25</Error>
+			<Region>Ethiopia (Eritrea)</Region>
+		</Datum>
+		<Datum Name="Merchich">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>31 146 47</Delta>
+			<Error>5 3 3</Error>
+			<Region>Morocco</Region>
+		</Datum>
+		<Datum Name="Midway Astro 1961">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>912 -58 1227</Delta>
+			<Error>25 25 25</Error>
+			<Region>Midway Islands</Region>
+		</Datum>
+		<Datum Name="Minna">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-81 -84 115</Delta>
+			<Error>25 25 25</Error>
+			<Region>Cameroon</Region>
+		</Datum>
+		<Datum Name="Minna">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-92 -93 122</Delta>
+			<Error>3 6 5</Error>
+			<Region>Nigeria</Region>
+		</Datum>
+		<Datum Name="Montserrat Island Astro 1958">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>174 359 365</Delta>
+			<Error>25 25 25</Error>
+			<Region>Montserrat (Leeward Islands)</Region>
+		</Datum>
+		<Datum Name="Nahrwan">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-247 -148 369</Delta>
+			<Error>25 25 25</Error>
+			<Region>Oman (Masirah Island)</Region>
+		</Datum>
+		<Datum Name="Nahrwan">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-243 -192 477</Delta>
+			<Error>20 20 20</Error>
+			<Region>Saudi Arabia</Region>
+		</Datum>
+		<Datum Name="Nahrwan">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-249 -156 381</Delta>
+			<Error>25 25 25</Error>
+			<Region>United Arab Emirates</Region>
+		</Datum>
+		<Datum Name="Naparima BWI">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-10 375 165</Delta>
+			<Error>15 15 15</Error>
+			<Region>Trinidad and Tobago</Region>
+		</Datum>
+		<Datum Name="North American 1927">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>-5 135 172</Delta>
+			<Error>5 9 5</Error>
+			<Region>Alaska (Excluding Aleutian Ids)</Region>
+		</Datum>
+		<Datum Name="North American 1927">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>-2 152 149</Delta>
+			<Error>6 8 10</Error>
+			<Region>Alaska (Aleutian Ids East of 180º)</Region>
+		</Datum>
+		<Datum Name="North American 1927">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>2 204 105</Delta>
+			<Error>10 10 10</Error>
+			<Region>Alaska (Aleutian Ids West of 180º</Region>
+		</Datum>
+		<Datum Name="North American 1927">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>-4 154 178</Delta>
+			<Error>5 3 5</Error>
+			<Region>Bahamas (Except San Salvador Id)</Region>
+		</Datum>
+		<Datum Name="North American 1927">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>1 140 165</Delta>
+			<Error>25 25 25</Error>
+			<Region>Bahamas (San Salvador Island)</Region>
+		</Datum>
+		<Datum Name="North American 1927">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>-7 162 188</Delta>
+			<Error>8 8 6</Error>
+			<Region>Canada (Alberta; British Columbia)</Region>
+		</Datum>
+		<Datum Name="North American 1927">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>-9 157 184</Delta>
+			<Error>9 5 5</Error>
+			<Region>Canada (Manitoba; Ontario)</Region>
+		</Datum>
+		<Datum Name="North American 1927">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>-22 160 190</Delta>
+			<Error>6 6 3</Error>
+			<Region>Canada (New Brunswick; Newfoundland; Nova Scotia; Quebec)</Region>
+		</Datum>
+		<Datum Name="North American 1927">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>4 159 188</Delta>
+			<Error>5 5 3</Error>
+			<Region>Canada (Northwest Territories; Saskatchewan)</Region>
+		</Datum>
+		<Datum Name="North American 1927">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>-7 139 181</Delta>
+			<Error>5 8 3</Error>
+			<Region>Canada (Yukon)</Region>
+		</Datum>
+		<Datum Name="North American 1927">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>0 125 201</Delta>
+			<Error>20 20 20</Error>
+			<Region>Canal Zone</Region>
+		</Datum>
+		<Datum Name="North American 1927">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>-9 152 178</Delta>
+			<Error>25 25 25</Error>
+			<Region>Cuba</Region>
+		</Datum>
+		<Datum Name="North American 1927">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>11 114 195</Delta>
+			<Error>25 25 25</Error>
+			<Region>Greenland (Hayes Peninsula)</Region>
+		</Datum>
+		<Datum Name="North American 1927">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>-3 142 183</Delta>
+			<Error>3 9 12</Error>
+			<Region>MEAN FOR Antigua; Barbados; Barbuda; Caicos Islands; Cuba; Dominican Republic; Grand Cayman; Jamaica; Turks Islands</Region>
+		</Datum>
+		<Datum Name="North American 1927">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>0 125 194</Delta>
+			<Error>8 3 5</Error>
+			<Region>MEAN FOR Belize; Costa Rica; El Salvador; Guatemala; Honduras; Nicaragua</Region>
+		</Datum>
+		<Datum Name="North American 1927">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>-10 158 187</Delta>
+			<Error>15 11 6</Error>
+			<Region>MEAN FOR Canada</Region>
+		</Datum>
+		<Datum Name="North American 1927">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>-8 160 176</Delta>
+			<Error>5 5 6</Error>
+			<Region>MEAN FOR CONUS</Region>
+		</Datum>
+		<Datum Name="North American 1927">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>-9 161 179</Delta>
+			<Error>5 5 8</Error>
+			<Region>MEAN FOR CONUS (East of Mississippi; River Including Louisiana; Missouri; Minnesota)</Region>
+		</Datum>
+		<Datum Name="North American 1927">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>-8 159 175</Delta>
+			<Error>5 3 3</Error>
+			<Region>MEAN FOR CONUS (West of Mississippi; River Excluding Louisiana; Minnesota; Missouri)</Region>
+		</Datum>
+		<Datum Name="North American 1927">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>-12 130 190</Delta>
+			<Error>8 6 6</Error>
+			<Region>Mexico</Region>
+		</Datum>
+		<Datum Name="North American 1983">
+			<Ellipsoid>GRS 1980</Ellipsoid>
+			<Delta>0 0 0</Delta>
+			<Error>2 2 2</Error>
+			<Region>Alaska (Excluding Aleutian Ids)</Region>
+		</Datum>
+		<Datum Name="North American 1983">
+			<Ellipsoid>GRS 1980</Ellipsoid>
+			<Delta>-2 0 4</Delta>
+			<Error>5 2 5</Error>
+			<Region>Aleutian Ids</Region>
+		</Datum>
+		<Datum Name="North American 1983">
+			<Ellipsoid>GRS 1980</Ellipsoid>
+			<Delta>0 0 0</Delta>
+			<Error>2 2 2</Error>
+			<Region>Canada</Region>
+		</Datum>
+		<Datum Name="North American 1983">
+			<Ellipsoid>GRS 1980</Ellipsoid>
+			<Delta>0 0 0</Delta>
+			<Error>2 2 2</Error>
+			<Region>CONUS</Region>
+		</Datum>
+		<Datum Name="North American 1983">
+			<Ellipsoid>GRS 1980</Ellipsoid>
+			<Delta>1 1 -1</Delta>
+			<Error>2 2 2</Error>
+			<Region>Hawaii</Region>
+		</Datum>
+		<Datum Name="North American 1983">
+			<Ellipsoid>GRS 1980</Ellipsoid>
+			<Delta>0 0 0</Delta>
+			<Error>2 2 2</Error>
+			<Region>Mexico; Central America</Region>
+		</Datum>
+		<Datum Name="North Sahara 1959">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-186 -93 310</Delta>
+			<Error>25 25 25</Error>
+			<Region>Algeria</Region>
+		</Datum>
+		<Datum Name="Observatorio Meteorologico 1939">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-425 -169 81</Delta>
+			<Error>20 20 20</Error>
+			<Region>Azores (Corvo and Flores Islands)</Region>
+		</Datum>
+		<Datum Name="Old Egyptian 1907">
+			<Ellipsoid>Helmert 1906</Ellipsoid>
+			<Delta>-130 110 -13</Delta>
+			<Error>3 6 8</Error>
+			<Region>Egypt</Region>
+		</Datum>
+		<Datum Name="Old Hawaiian">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>89 -279 -183</Delta>
+			<Error>25 25 25</Error>
+			<Region>Hawaii</Region>
+		</Datum>
+		<Datum Name="Old Hawaiian">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>45 -290 -172</Delta>
+			<Error>20 20 20</Error>
+			<Region>Kauai</Region>
+		</Datum>
+		<Datum Name="Old Hawaiian">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>65 -290 -190</Delta>
+			<Error>25 25 25</Error>
+			<Region>Maui</Region>
+		</Datum>
+		<Datum Name="Old Hawaiian">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>61 -285 -181</Delta>
+			<Error>25 20 20</Error>
+			<Region>MEAN FOR Hawaii; Kauai; Maui; Oahu</Region>
+		</Datum>
+		<Datum Name="Old Hawaiian">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>58 -283 -182</Delta>
+			<Error>10 6 6</Error>
+			<Region>Oahu</Region>
+		</Datum>
+		<Datum Name="Oman">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-346 -1 224</Delta>
+			<Error>3 3 9</Error>
+			<Region>Oman</Region>
+		</Datum>
+		<Datum Name="Ordnance Survey Great Britain 1936">
+			<Ellipsoid>Airy 1830</Ellipsoid>
+			<Delta>371 -112 434</Delta>
+			<Error>5 5 6</Error>
+			<Region>England</Region>
+		</Datum>
+		<Datum Name="Ordnance Survey Great Britain 1936">
+			<Ellipsoid>Airy 1830</Ellipsoid>
+			<Delta>371 -111 434</Delta>
+			<Error>10 10 15</Error>
+			<Region>England; Isle of Man; Wales</Region>
+		</Datum>
+		<Datum Name="Ordnance Survey Great Britain 1936">
+			<Ellipsoid>Airy 1830</Ellipsoid>
+			<Delta>375 -111 431</Delta>
+			<Error>10 10 15</Error>
+			<Region>MEAN FOR England; Isle of Man; Scotland; Shetland Islands; Wales</Region>
+		</Datum>
+		<Datum Name="Ordnance Survey Great Britain 1936">
+			<Ellipsoid>Airy 1830</Ellipsoid>
+			<Delta>384 -111 425</Delta>
+			<Error>10 10 10</Error>
+			<Region>Scotland; Shetland Islands</Region>
+		</Datum>
+		<Datum Name="Ordnance Survey Great Britain 1936">
+			<Ellipsoid>Airy 1830</Ellipsoid>
+			<Delta>370 -108 434</Delta>
+			<Error>20 20 20</Error>
+			<Region>Wales</Region>
+		</Datum>
+		<Datum Name="Pico de las Nieves">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-307 -92 127</Delta>
+			<Error>25 25 25</Error>
+			<Region>Canary Islands</Region>
+		</Datum>
+		<Datum Name="Pitcairn Astro 1967">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>185 165 42</Delta>
+			<Error>25 25 25</Error>
+			<Region>Pitcairn Island</Region>
+		</Datum>
+		<Datum Name="Point 58">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-106 -129 165</Delta>
+			<Error>25 25 25</Error>
+			<Region>MEAN FOR Burkina Faso and Niger</Region>
+		</Datum>
+		<Datum Name="Pointe Noire 1948">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-148 51 -291</Delta>
+			<Error>25 25 25</Error>
+			<Region>Congo</Region>
+		</Datum>
+		<Datum Name="Porto Santo 1936">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-499 -249 314</Delta>
+			<Error>25 25 25</Error>
+			<Region>Porto Santo; Madeira Islands</Region>
+		</Datum>
+		<Datum Name="Provisional South American 1956">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-270 188 -388</Delta>
+			<Error>5 11 14</Error>
+			<Region>Bolivia</Region>
+		</Datum>
+		<Datum Name="Provisional South American 1956">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-270 183 -390</Delta>
+			<Error>25 25 25</Error>
+			<Region>Chile (Northern; Near 19ºS)</Region>
+		</Datum>
+		<Datum Name="Provisional South American 1956">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-305 243 -442</Delta>
+			<Error>20 20 20</Error>
+			<Region>Chile (Southern; Near 43ºS)</Region>
+		</Datum>
+		<Datum Name="Provisional South American 1956">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-282 169 -371</Delta>
+			<Error>15 15 15</Error>
+			<Region>Colombia</Region>
+		</Datum>
+		<Datum Name="Provisional South American 1956">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-278 171 -367</Delta>
+			<Error>3 5 3</Error>
+			<Region>Ecuador</Region>
+		</Datum>
+		<Datum Name="Provisional South American 1956">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-298 159 -369</Delta>
+			<Error>6 14 5</Error>
+			<Region>Guyana</Region>
+		</Datum>
+		<Datum Name="Provisional South American 1956">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-288 175 -376</Delta>
+			<Error>17 27 27</Error>
+			<Region>MEAN FOR Bolivia; Chile; Colombia; Ecuador; Guyana; Peru; Venezuela</Region>
+		</Datum>
+		<Datum Name="Provisional South American 1956">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-279 175 -379</Delta>
+			<Error>6 8 12</Error>
+			<Region>Peru</Region>
+		</Datum>
+		<Datum Name="Provisional South American 1956">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-295 173 -371</Delta>
+			<Error>9 14 15</Error>
+			<Region>Venezuela</Region>
+		</Datum>
+		<Datum Name="Provisional South Chilean 1963">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>16 196 93</Delta>
+			<Error>25 25 25</Error>
+			<Region>Chile (Near 53_Hito XVIII)</Region>
+		</Datum>
+		<Datum Name="Puerto Rico">
+			<Ellipsoid>Clarke 1866</Ellipsoid>
+			<Delta>11 72 -101</Delta>
+			<Error>3 3 3</Error>
+			<Region>Puerto Rico; Virgin Islands</Region>
+		</Datum>
+		<Datum Name="Pulkovo 1942">
+			<Ellipsoid>Krassovsky 1940</Ellipsoid>
+			<Delta>28 -130 -95</Delta>
+			<Error>-1 -1 -1</Error>
+			<Region>Russia</Region>
+		</Datum>
+		<Datum Name="Pulkovo 1942">
+			<Ellipsoid>Krassovsky 1940</Ellipsoid>
+			<Delta>28 -130 -95</Delta>
+			<Error>-1 -1 -1</Error>
+			<Region>Poland</Region>
+		</Datum>
+		<Datum Name="Pulkovo 1942 PL">
+			<Ellipsoid>Krassovsky 1940</Ellipsoid>
+			<Delta>-45 -194 -82</Delta>
+			<Error>-1 -1 -1</Error>
+			<Region>Poland</Region>
+		</Datum>
+		<Datum Name="GUGiK 80">
+			<Ellipsoid>Krassovsky 1940</Ellipsoid>
+			<Delta>23 -230 -82</Delta>
+			<Error>-1 -1 -1</Error>
+			<Region>Poland</Region>
+		</Datum>
+		<Datum Name="Qatar National">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-128 -283 22</Delta>
+			<Error>20 20 20</Error>
+			<Region>Qatar</Region>
+		</Datum>
+		<Datum Name="Qornoq">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>164 138 -189</Delta>
+			<Error>25 25 32</Error>
+			<Region>Greenland (South)</Region>
+		</Datum>
+		<Datum Name="Reunion">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>94 -948 -1262</Delta>
+			<Error>25 25 25</Error>
+			<Region>Mascarene Islands</Region>
+		</Datum>
+		<Datum Name="Rome 1940">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-225 -65 9</Delta>
+			<Error>25 25 25</Error>
+			<Region>Italy (Sardinia)</Region>
+		</Datum>
+		<Datum Name="S-42 (Pulkovo 1942)">
+			<Ellipsoid>Krassovsky 1940</Ellipsoid>
+			<Delta>28 -121 -77</Delta>
+			<Error>2 2 2</Error>
+			<Region>Hungary</Region>
+		</Datum>
+		<Datum Name="S-42 (Pulkovo 1942)">
+			<Ellipsoid>Krassovsky 1940</Ellipsoid>
+			<Delta>23 -124 -82</Delta>
+			<Error>4 2 4</Error>
+			<Region>Poland</Region>
+		</Datum>
+		<Datum Name="S-42 (Pulkovo 1942)">
+			<Ellipsoid>Krassovsky 1940</Ellipsoid>
+			<Delta>26 -121 -78</Delta>
+			<Error>3 3 2</Error>
+			<Region>Czechoslavakia</Region>
+		</Datum>
+		<Datum Name="S-42 (Pulkovo 1942)">
+			<Ellipsoid>Krassovsky 1940</Ellipsoid>
+			<Delta>24 -124 -82</Delta>
+			<Error>2 2 2</Error>
+			<Region>Latvia</Region>
+		</Datum>
+		<Datum Name="S-42 (Pulkovo 1942)">
+			<Ellipsoid>Krassovsky 1940</Ellipsoid>
+			<Delta>15 -130 -84</Delta>
+			<Error>25 25 25</Error>
+			<Region>Kazakhstan</Region>
+		</Datum>
+		<Datum Name="S-42 (Pulkovo 1942)">
+			<Ellipsoid>Krassovsky 1940</Ellipsoid>
+			<Delta>24 -130 -92</Delta>
+			<Error>3 3 3</Error>
+			<Region>Albania</Region>
+		</Datum>
+		<Datum Name="S-42 (Pulkovo 1942)">
+			<Ellipsoid>Krassovsky 1940</Ellipsoid>
+			<Delta>28 -121 -77</Delta>
+			<Error>3 5 3</Error>
+			<Region>Romania</Region>
+		</Datum>
+		<Datum Name="S-JTSK">
+			<Ellipsoid>Bessel 1841</Ellipsoid>
+			<Delta>589 76 480</Delta>
+			<Error>4 2 3</Error>
+			<Region>Czechoslavakia (Prior 1 JAN 1993)</Region>
+		</Datum>
+		<Datum Name="Santo (DOS) 1965">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>170 42 84</Delta>
+			<Error>25 25 25</Error>
+			<Region>Espirito Santo Island</Region>
+		</Datum>
+		<Datum Name="Sao Braz">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-203 141 53</Delta>
+			<Error>25 25 25</Error>
+			<Region>Azores (Sao Miguel; Santa Maria Ids)</Region>
+		</Datum>
+		<Datum Name="Sapper Hill 1943">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-355 21 72</Delta>
+			<Error>1 1 1</Error>
+			<Region>East Falkland Island</Region>
+		</Datum>
+		<Datum Name="Schwarzeck">
+			<Ellipsoid>Bessel 1841 (Namibia)</Ellipsoid>
+			<Delta>616 97 -251</Delta>
+			<Error>20 20 20</Error>
+			<Region>Namibia</Region>
+		</Datum>
+		<Datum Name="Selvagem Grande 1938">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-289 -124 60</Delta>
+			<Error>25 25 25</Error>
+			<Region>Salvage Islands</Region>
+		</Datum>
+		<Datum Name="Sierra Leone 1960">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-88 4 101</Delta>
+			<Error>15 15 15</Error>
+			<Region>Sierra Leone</Region>
+		</Datum>
+		<Datum Name="South American 1969">
+			<Ellipsoid>South American 1969</Ellipsoid>
+			<Delta>-62 -1 -37</Delta>
+			<Error>5 5 5</Error>
+			<Region>Argentina</Region>
+		</Datum>
+		<Datum Name="South American 1969">
+			<Ellipsoid>South American 1969</Ellipsoid>
+			<Delta>-61 2 -48</Delta>
+			<Error>15 15 15</Error>
+			<Region>Bolivia</Region>
+		</Datum>
+		<Datum Name="South American 1969">
+			<Ellipsoid>South American 1969</Ellipsoid>
+			<Delta>-60 -2 -41</Delta>
+			<Error>3 5 5</Error>
+			<Region>Brazil</Region>
+		</Datum>
+		<Datum Name="South American 1969">
+			<Ellipsoid>South American 1969</Ellipsoid>
+			<Delta>-75 -1 -44</Delta>
+			<Error>15 8 11</Error>
+			<Region>Chile</Region>
+		</Datum>
+		<Datum Name="South American 1969">
+			<Ellipsoid>South American 1969</Ellipsoid>
+			<Delta>-44 6 -36</Delta>
+			<Error>6 6 5</Error>
+			<Region>Colombia</Region>
+		</Datum>
+		<Datum Name="South American 1969">
+			<Ellipsoid>South American 1969</Ellipsoid>
+			<Delta>-48 3 -44</Delta>
+			<Error>3 3 3</Error>
+			<Region>Ecuador</Region>
+		</Datum>
+		<Datum Name="South American 1969">
+			<Ellipsoid>South American 1969</Ellipsoid>
+			<Delta>-47 26 -42</Delta>
+			<Error>25 25 25</Error>
+			<Region>Ecuador (Baltra; Galapagos)</Region>
+		</Datum>
+		<Datum Name="South American 1969">
+			<Ellipsoid>South American 1969</Ellipsoid>
+			<Delta>-53 3 -47</Delta>
+			<Error>9 5 5</Error>
+			<Region>Guyana</Region>
+		</Datum>
+		<Datum Name="South American 1969">
+			<Ellipsoid>South American 1969</Ellipsoid>
+			<Delta>-57 1 -41</Delta>
+			<Error>15 6 9</Error>
+			<Region>MEAN FOR Argentina; Bolivia; Brazil; Chile; Colombia; Ecuador; Guyana; Paraguay; Peru; Trinidad and Tobago; Venezuela</Region>
+		</Datum>
+		<Datum Name="South American 1969">
+			<Ellipsoid>South American 1969</Ellipsoid>
+			<Delta>-61 2 -33</Delta>
+			<Error>15 15 15</Error>
+			<Region>Paraguay</Region>
+		</Datum>
+		<Datum Name="South American 1969">
+			<Ellipsoid>South American 1969</Ellipsoid>
+			<Delta>-58 0 -44</Delta>
+			<Error>5 5 5</Error>
+			<Region>Peru</Region>
+		</Datum>
+		<Datum Name="South American 1969">
+			<Ellipsoid>South American 1969</Ellipsoid>
+			<Delta>-45 12 -33</Delta>
+			<Error>25 25 25</Error>
+			<Region>Trinidad and Tobago</Region>
+		</Datum>
+		<Datum Name="South American 1969">
+			<Ellipsoid>South American 1969</Ellipsoid>
+			<Delta>-45 8 -33</Delta>
+			<Error>3 6 3</Error>
+			<Region>Venezuela</Region>
+		</Datum>
+		<Datum Name="South Asia">
+			<Ellipsoid>Modified Fischer 1960</Ellipsoid>
+			<Delta>7 -10 -26</Delta>
+			<Error>25 25 25</Error>
+			<Region>Singapore</Region>
+		</Datum>
+		<Datum Name="Tananarive Observatory 1925">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-189 -242 -91</Delta>
+			<Error>-1 -1 -1</Error>
+			<Region>Madagascar</Region>
+		</Datum>
+		<Datum Name="Timbalai 1948">
+			<Ellipsoid>Everest (Sabah Sarawak)</Ellipsoid>
+			<Delta>-679 669 -48</Delta>
+			<Error>10 10 12</Error>
+			<Region>Brunei; E. Malaysia (Sabah Sarawak)</Region>
+		</Datum>
+		<Datum Name="Tokyo">
+			<Ellipsoid>Bessel 1841</Ellipsoid>
+			<Delta>-148 507 685</Delta>
+			<Error>8 5 8</Error>
+			<Region>Japan</Region>
+		</Datum>
+		<Datum Name="Tokyo">
+			<Ellipsoid>Bessel 1841</Ellipsoid>
+			<Delta>-148 507 685</Delta>
+			<Error>20 5 20</Error>
+			<Region>MEAN FOR Japan; South Korea; Okinawa</Region>
+		</Datum>
+		<Datum Name="Tokyo">
+			<Ellipsoid>Bessel 1841</Ellipsoid>
+			<Delta>-158 507 676</Delta>
+			<Error>20 5 20</Error>
+			<Region>Okinawa</Region>
+		</Datum>
+		<Datum Name="Tokyo">
+			<Ellipsoid>Bessel 1841</Ellipsoid>
+			<Delta>-147 506 687</Delta>
+			<Error>2 2 2</Error>
+			<Region>South Korea</Region>
+		</Datum>
+		<Datum Name="Tristan Astro 1968">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-632 438 -609</Delta>
+			<Error>25 25 25</Error>
+			<Region>Tristan da Cunha</Region>
+		</Datum>
+		<Datum Name="Viti Levu 1916">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>51 391 -36</Delta>
+			<Error>25 25 25</Error>
+			<Region>Fiji (Viti Levu Island)</Region>
+		</Datum>
+		<Datum Name="Voirol 1960">
+			<Ellipsoid>Clarke 1880</Ellipsoid>
+			<Delta>-123 -206 219</Delta>
+			<Error>25 25 25</Error>
+			<Region>Algeria</Region>
+		</Datum>
+		<Datum Name="Wake Island Astro 1952">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>276 -57 149</Delta>
+			<Error>25 25 25</Error>
+			<Region>Wake Atoll</Region>
+		</Datum>
+		<Datum Name="Wake-Eniwetok 1960">
+			<Ellipsoid>Hough 1960</Ellipsoid>
+			<Delta>102 52 -38</Delta>
+			<Error>3 3 3</Error>
+			<Region>Marshall Islands</Region>
+		</Datum>
+		<Datum Name="WGS 1972">
+			<Ellipsoid>WGS 72</Ellipsoid>
+			<Delta>0 0 0</Delta>
+			<Error>-1 -1 -1</Error>
+			<Region>Global Definition</Region>
+		</Datum>
+		<Datum Name="WGS 1984">
+			<Ellipsoid>WGS 84</Ellipsoid>
+			<Delta>0 0 0</Delta>
+			<Error>-1 -1 -1</Error>
+			<Region>Global Definition</Region>
+		</Datum>
+		<Datum Name="Yacare">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-155 171 37</Delta>
+			<Error>-1 -1 -1</Error>
+			<Region>Uruguay</Region>
+		</Datum>
+		<Datum Name="Zanderij">
+			<Ellipsoid>International 1924</Ellipsoid>
+			<Delta>-265 120 -358</Delta>
+			<Error>5 5 8</Error>
+			<Region>Suriname</Region>
+		</Datum>
+	</Datums>
+	<Ellipsoids>
+		<!-- Ellipsoid: Name, Equatorial Radius, Inverse Flattenning -->
+		<Ellipsoid Name="Airy 1830">					6377563.396	299.3249646	</Ellipsoid>
+		<Ellipsoid Name="Australian National">			6378160		298.25		</Ellipsoid>
+		<Ellipsoid Name="Bessel 1841">					6377397.155	299.1528128	</Ellipsoid>
+		<Ellipsoid Name="Bessel 1841 (Namibia)">		6377483.865	299.1528128	</Ellipsoid>
+		<Ellipsoid Name="Clarke 1866">					6378206.4		294.9786982	</Ellipsoid>
+		<Ellipsoid Name="Clarke 1880">					6378249.145	293.465		</Ellipsoid>
+		<Ellipsoid Name="Everest (India 1830)">			6377276.345	300.8017	</Ellipsoid>
+		<Ellipsoid Name="Everest (India 1956)">			6377301.243	300.8017	</Ellipsoid>
+		<Ellipsoid Name="Everest (Malaysia-Singapur)">	6377304.063	300.8017	</Ellipsoid>
+		<Ellipsoid Name="Everest (Malaysia 1969)">		6377295.664	300.8017	</Ellipsoid>
+		<Ellipsoid Name="Everest (Pakistan)">			6377309.613	300.8017	</Ellipsoid>
+		<Ellipsoid Name="Everest (Sabah Sarawak)">	6377298.556	300.8017	</Ellipsoid>
+		<Ellipsoid Name="Fischer 1960 (Mercury)">		6378166		298.3		</Ellipsoid>
+		<Ellipsoid Name="Fischer 1968">					6378150		298.3		</Ellipsoid>
+		<Ellipsoid Name="GRS 1967">					6378160		298.2471674	</Ellipsoid>
+		<Ellipsoid Name="GRS 1980">					6378137		298.2572221	</Ellipsoid>
+		<Ellipsoid Name="Helmert 1906">					6378200		298.3		</Ellipsoid>
+		<Ellipsoid Name="Hough 1960">					6378270		297			</Ellipsoid>
+		<Ellipsoid Name="Indonesian 1974">				6378160		298.247		</Ellipsoid>
+		<Ellipsoid Name="International 1924">				6378388		297			</Ellipsoid>
+		<Ellipsoid Name="Krassovsky">					6378245		298.3		</Ellipsoid>
+		<Ellipsoid Name="Krassovsky 1940">				6378245		298.3		</Ellipsoid>
+		<Ellipsoid Name="Modified Airy">					6377340.189	299.3249646	</Ellipsoid>
+		<Ellipsoid Name="Modified Everest">				6377304.063	300.8017	</Ellipsoid>
+		<Ellipsoid Name="Modified Fischer 1960">		6378155		298.3		</Ellipsoid>
+		<Ellipsoid Name="South American 1969">			6378160		298.25		</Ellipsoid>
+		<Ellipsoid Name="WGS 60">						6378165		298.3		</Ellipsoid>
+		<Ellipsoid Name="WGS 66">						6378145		298.25		</Ellipsoid>
+		<Ellipsoid Name="WGS 72">						6378135		298.26		</Ellipsoid>
+		<Ellipsoid Name="WGS 84">						6378137		298.2572236	</Ellipsoid>
+	</Ellipsoids>
+</DatumFile>

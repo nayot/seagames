@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This DTD validates championship descriptions in MicroFLAP XCH files (XML) -->
+<!-- JLE 4/June/09 -->
+<!-- Championship (root element) -->
+<!ELEMENT Championship (ChampionshipDescription, Geo, Classes, Teams, TaskCatalogue, Tasks)>
+<!ATTLIST Championship
+	ShortName CDATA #REQUIRED
+>
+<!-- Championship Description -->
+<!ELEMENT ChampionshipDescription (Name, Date, Venue, Organiser, Country, IsoCountry, Directory, Software, Version)>
+<!-- Geo Elements -->
+<!ELEMENT Geo (Maps, Waypoints)>
+<!-- Maps -->
+<!ELEMENT Maps (Map+)>
+<!ELEMENT Map (Name, Description, MapFile, Datum, Region, Projection, Scale, Georef)>
+<!ATTLIST Map
+	ShortName CDATA #REQUIRED
+>
+<!ELEMENT Georef (MapRef+)>
+<!ELEMENT MapRef EMPTY>
+<!ATTLIST MapRef
+	X CDATA #REQUIRED
+	Y CDATA #REQUIRED
+	Lat CDATA #REQUIRED
+	Lon CDATA #REQUIRED
+>
+<!-- Waypoints -->
+<!ELEMENT Waypoints (WayPointSet)>
+<!ELEMENT WayPointSet (WayPointSetDescription, WayPoint*)>
+<!ATTLIST WayPointSet
+	ShortName CDATA #REQUIRED
+>
+<!ELEMENT WayPointSetDescription (Datum, Region)>
+<!ELEMENT WayPoint (Description, Lat, Lon)>
+<!ATTLIST WayPoint
+	Code CDATA #REQUIRED
+>
+<!-- Classes in competition -->
+<!ELEMENT Classes (Class)*>
+<!ELEMENT Class ((Name, Description, Role1, Role2) | Competitor*)>
+<!ATTLIST Class
+	ShortName CDATA #REQUIRED
+>
+<!-- Teams in competition -->
+<!ELEMENT Teams (Team)*>
+<!ELEMENT Team (TeamDescription, Class*)>
+<!ATTLIST Team
+	IsoCountry CDATA #REQUIRED
+>
+<!ELEMENT TeamDescription (Name, ShortName, Club, Country)>
+<!--ELEMENT Class ((Name, Description, Role1, Role2) | Competitor*)-->
+<!ELEMENT Competitor (Pilot, Navigator, Registration, Manufacturer, Model, Engine, Wings, Fuselage)>
+<!ATTLIST Competitor
+	Number CDATA #REQUIRED
+>
+<!-- Tasks Definitions -->
+<!ELEMENT TaskCatalogue (TaskTemplate+)>
+<!-- Task template -->
+<!ELEMENT TaskTemplate (Name, Description, TaskInstance*)>
+<!ATTLIST TaskTemplate
+	ShortName CDATA #REQUIRED
+>
+<!-- Task instances contained in each template -->
+<!ELEMENT TaskInstance (TurnPoints, Legs, ArcLegs, Gates)>
+<!ATTLIST TaskInstance
+	Version CDATA #REQUIRED
+>
+<!-- Turn Points -->
+<!ELEMENT TurnPoints (#PCDATA | TurnPoint)*>
+<!ELEMENT TurnPoint EMPTY>
+<!ATTLIST TurnPoint
+	WayPoint CDATA #REQUIRED
+	Radius CDATA #REQUIRED
+>
+<!-- Legs -->
+<!ELEMENT Legs (#PCDATA | Leg)*>
+<!ELEMENT Leg EMPTY>
+<!ATTLIST Leg
+	From CDATA #REQUIRED
+	To CDATA #REQUIRED
+	Radius CDATA #REQUIRED
+>
+<!-- Arc Legs (not in use, definition pending)-->
+<!ELEMENT ArcLegs (#PCDATA)>
+<!-- Gates -->
+<!ELEMENT Gates (#PCDATA | Gate)*>
+<!ELEMENT Gate EMPTY>
+<!ATTLIST Gate
+	WayPoint CDATA #IMPLIED
+	Bearing CDATA #IMPLIED
+	Radius CDATA #REQUIRED
+	From CDATA #IMPLIED
+	To CDATA #IMPLIED
+	Percent CDATA #IMPLIED
+>
+<!-- Tasks performed -->
+<!ELEMENT Tasks (TaskNumber*)>
+<!ELEMENT TaskNumber (Flight*)>
+<!ATTLIST TaskNumber
+	Number CDATA #REQUIRED
+	Class CDATA #REQUIRED
+	Template CDATA #REQUIRED
+	Instance CDATA #REQUIRED
+>
+<!ELEMENT Flight (IgcFileName, ResultsFileName, Datum, Region)>
+<!ATTLIST Flight
+	Number CDATA #REQUIRED
+>
+<!-- Simple elements -->
+<!ELEMENT Club (#PCDATA)>
+<!ELEMENT Country (#PCDATA)>
+<!ELEMENT Date (#PCDATA)>
+<!ELEMENT Datum (#PCDATA)>
+<!ELEMENT Description (#PCDATA)>
+<!ELEMENT Directory (#PCDATA)>
+<!ELEMENT Engine (#PCDATA)>
+<!ELEMENT Fuselage (#PCDATA)>
+<!ELEMENT IgcFileName (#PCDATA)>
+<!ELEMENT IsoCountry (#PCDATA)>
+<!ELEMENT Lat (#PCDATA)>
+<!ELEMENT Lon (#PCDATA)>
+<!ELEMENT Manufacturer (#PCDATA)>
+<!ELEMENT MapFile (#PCDATA)>
+<!ELEMENT Model (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Navigator (#PCDATA)>
+<!ELEMENT Organiser (#PCDATA)>
+<!ELEMENT Pilot (#PCDATA)>
+<!ELEMENT Projection (#PCDATA)>
+<!ELEMENT Region (#PCDATA)>
+<!ELEMENT Registration (#PCDATA)>
+<!ELEMENT ResultsFileName (#PCDATA)>
+<!ELEMENT Role1 (#PCDATA)>
+<!ELEMENT Role2 (#PCDATA)>
+<!ELEMENT Scale (#PCDATA)>
+<!ELEMENT ShortName (#PCDATA)>
+<!ELEMENT Software (#PCDATA)>
+<!ELEMENT Venue (#PCDATA)>
+<!ELEMENT Version (#PCDATA)>
+<!ELEMENT Wings (#PCDATA)>
+<!-- Non plus ultra -->
