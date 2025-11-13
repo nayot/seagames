@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.0" creator="GPSBabel - https://www.gpsbabel.org" xmlns="http://www.topografix.com/GPX/1/0">
+  <time>2025-11-13T05:32:51.694Z</time>
+  <bounds minlat="13.144352000" minlon="101.024955000" maxlat="13.164469000" maxlon="101.048656000"/>
+  <wpt lat="13.160381000" lon="101.024955000">
+    <ele>0.000</ele>
+    <time>2025-11-13T04:01:42.168Z</time>
+    <name>START</name>
+    <cmt>START</cmt>
+    <desc>START</desc>
+  </wpt>
+  <wpt lat="13.164469000" lon="101.036809000">
+    <ele>0.000</ele>
+    <time>2025-11-13T04:02:16.168Z</time>
+    <name>TP10</name>
+    <cmt>TP10</cmt>
+    <desc>TP10</desc>
+  </wpt>
+  <wpt lat="13.156791000" lon="101.048656000">
+    <ele>0.000</ele>
+    <time>2025-11-13T04:02:35.168Z</time>
+    <name>TP20</name>
+    <cmt>TP20</cmt>
+    <desc>TP20</desc>
+  </wpt>
+  <wpt lat="13.144352000" lon="101.042118000">
+    <ele>0.000</ele>
+    <time>2025-11-13T04:02:56.169Z</time>
+    <name>TP30</name>
+    <cmt>TP30</cmt>
+    <desc>TP30</desc>
+  </wpt>
+  <wpt lat="13.150269000" lon="101.030977000">
+    <ele>0.000</ele>
+    <time>2025-11-13T04:03:09.169Z</time>
+    <name>FINISH</name>
+    <cmt>FINISH</cmt>
+    <desc>FINISH</desc>
+  </wpt>
+  <wpt lat="13.155513000" lon="101.029483000">
+    <ele>0.000</ele>
+    <time>2025-11-13T04:42:34.196Z</time>
+    <name>TAKEOFF</name>
+    <cmt>TAKEOFF</cmt>
+    <desc>TAKEOFF</desc>
+  </wpt>
+</gpx>
